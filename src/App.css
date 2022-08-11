@@ -1,0 +1,23 @@
+.App {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.Content {
+	width: 740px;
+	height: 100vh;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+@media (max-width: 740px) {
+	.Content {
+		width: 100vw;
+	}
+}

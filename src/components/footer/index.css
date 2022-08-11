@@ -1,0 +1,11 @@
+.Footer {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	background-color: #f6f6f6;
+}
+
+.Footer-item {
+	font-size: 20px;
+	margin: 15px 40px;
+}

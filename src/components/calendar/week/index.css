@@ -1,0 +1,74 @@
+.Week {
+	width: 100%;
+	background-color: #f6f6f6;
+	border: 1px #e8e8e8 solid;
+	border-left-style: none;
+	border-right-style: none;
+}
+
+.Week-day {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 100%;
+	align-self: end;
+	display: flex;
+	justify-content: space-between;
+	overflow-x: auto;
+}
+
+.Week-month {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 100%;
+	align-self: end;
+	display: flex;
+	justify-content: space-between;
+}
+
+.Week-item-day {
+	width: 12vw;
+	text-align: center;
+}
+
+.Week-item-day > .n {
+	font-size: 10px;
+	margin-bottom: 5px;
+}
+
+.Week-item-day > .s > button {
+	width: 26px;
+}
+
+.Week-item-month {
+	text-align: center;
+}
+
+.Week-month > .l {
+	width: 12vw;
+	margin-left: 12.5vw;
+}
+
+.Week-month > .r {
+	width: 12vw;
+}
+
+@media (min-width: 740px) {
+	.Week-item-day {
+		width: 92.5px;
+	}
+
+	.Week-month > .l {
+		width: 92.5px;
+		margin-left: 92.5px;
+	}
+
+	.Week-month > .r {
+		width: 92.5px;
+	}
+}
+
+.current {
+	color: white;
+	background-color: #ff2d2d !important;
+	border-radius: 50%;
+}
